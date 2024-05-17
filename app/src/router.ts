@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Productloader } from "./App";
+import { ProductLoader } from "./App";
 import Register from "./register";
 import login from "./login";
 import App from "./App";
@@ -9,7 +9,7 @@ export const router = createBrowserRouter([
   {
     index: true,
     Component: App,
-    loader: Productloader,
+    loader: ProductLoader,
   },
   { path: "/login", Component: login },
   { path: "/register", Component: Register },
